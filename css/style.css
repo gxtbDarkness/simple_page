@@ -1,0 +1,201 @@
+html,body {width:100%;height:100%;overflow-x:hidden;word-break:break-all;-webkit-font-smoothing:antialiased;}
+.Width768{max-width: 768px;margin: 0 auto;}
+body {margin: 0;padding: 0;font-size: 16px;font-family: "微软雅黑";color: #333;line-height: 180%;border: none;/* background-color: #f9f9f9; */}
+*:focus{outline:0px}
+i { font-style:normal; }
+ul,li{list-style:none;padding: 0;margin: 0;}
+a {color: #333;text-decoration: none;}
+a,a:hover,a:active,a:visited,a:link,a:focus{-webkit-tap-highlight-color:rgba(0,0,0,0);}
+.fb{font-weight: bold;}
+.multi-line-ellipsis {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.clearfix{clear: both; height: 0px; font-size: 0px; _overflow: hidden;}
+.ellipsis {text-overflow: ellipsis; -o-text-overflow: ellipsis; overflow: hidden; white-space: nowrap;}
+/************************************index*******************************************************************/
+.main{
+    background-color: #091a34;
+    color: #fff;
+}
+.header_top{background:url('../images/banner.jpg');max-width: 768px;height: 550px;background-size: 100% 100%;}
+/* .header_top .logo{
+  background: url('../images/logo.png');
+  width: 110px;
+  height: 70px;
+  background-size: 110px 70px;
+  position: relative;
+  left: 7%;
+  top: 6%;
+} */
+.fontMain{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.fontMain p{
+    /* margin: 0; */
+    font-size: 26px;
+    opacity: .7;
+    margin-bottom: 0;
+}
+.fontMain h3{
+    margin: 0;
+    font-size: 36px;
+    line-height: 75px;
+}
+.fontMain span{
+    background-color: #44433f;
+    padding: 5px 30px;
+    border-radius: 30%;
+    font-size: 14px;
+}
+.bigMain{
+    background-color: #cfd2d7;
+    margin: 0 35px;
+    border-radius: 20px;
+    color: #3c3c3c;
+    padding: 30px;
+}
+.bigMain> h3{
+    margin: 0;
+    font-size: 26px;
+    margin-top: 10px;
+}
+.bigMain h4{
+    font-size: 20px;
+}
+.bigMain_UL{
+    display: flex;
+    flex-wrap: wrap;
+}
+.bigMain_UL li{
+    width: 100%;
+    display: flex;
+}
+.bigMain_UL h3{
+    margin: 0;
+    font-size: 16px;
+    margin-right: 20px;
+}
+.bigMain_UL .bigMain_cj{
+    display: flex;
+    font-weight: bold;
+    margin-right: 15px;
+}
+.bigMain_cj .price{
+    color: #67a3ae;
+    font-size: 22px;
+}
+.bigMain_UL .bigMain_jx{
+    display: flex;
+    font-weight: bold;
+}
+.bigMain_jx .price{
+    font-size: 22px;
+}
+.colBlue{
+    color: #67a3ae;
+}
+.colRed{}
+.nowList{
+    border-bottom: 1px dashed #c1c4c9;
+    padding-bottom: 20px;
+}
+.nowList h2{}
+.nowList ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.nowList ul li{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.nowList h3{
+    margin: 0;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.nowList p{
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.nowList p::before{
+    content: "";
+    width: 5px;
+    height: 5px;
+    display: inline-block;
+    background-color: #bbbec3;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.showList{
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+.showList p{
+    margin: 0;
+    line-height: 30px;
+    font-size: 14px;
+}
+.bzList{}
+.bzList p{
+    margin: 0;
+    font-size: 10px;
+}
+.navMain{text-align: center;margin: 40px 40px 20px;}
+.navMain h3{
+    margin: 0;
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+.navMain h3::after{
+    content: "";
+    width: 30px;
+    height: 5px;
+    display: inline-block;
+    background-color: #ffff;
+    margin-bottom: 20px;
+}
+.navMain span{}
+.navMain h3>span{
+    width: 100%;
+    padding-bottom: 20px;
+}
+.photoList1{
+    /* border-bottom: 1px dashed #fff; */
+}
+.photoList1 img{max-width: 768px;width: 100%;display: inherit;}
+.photoList1 ul{
+    padding: 20px 20px 0;
+}
+.photoList1 ul li{
+    margin-bottom: 20px;
+}
+.photoList1 ul li h3{
+    margin: 0;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.photoList1 ul li h3::before{
+    content: "";
+    width: 5px;
+    height: 15px;
+    background-color: #fff;
+    display: inline-block;
+    margin-right: 10px;
+}
+.photoList1 ul li p{
+    margin: 0;
+}
